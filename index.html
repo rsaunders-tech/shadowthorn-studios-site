@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ShadowThorn Studios — Building games, AI tools, and digital infrastructure." />
+    <title>ShadowThorn Studios</title>
+
+    <!-- Link your CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Optional: basic favicon placeholder (add favicon.ico later) -->
+    <!-- <link rel="icon" href="favicon.ico" /> -->
+  </head>
+
+  <body>
+    <!-- Skip link for accessibility -->
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#" aria-label="ShadowThorn Studios Home">
+          <span class="brand-mark" aria-hidden="true">◆</span>
+          <span class="brand-name">ShadowThorn Studios</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero-inner">
+          <h1>ShadowThorn Studios</h1>
+          <p class="tagline">Building games, AI tools, and digital infrastructure.</p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact</a>
+          </div>
+
+          <p class="hero-note">
+            Layered build. Static now. Systems later.
+          </p>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            ShadowThorn Studios is a focused build lab for practical software: games, automation, and AI-first tools.
+            The goal is simple—ship clean systems, document the work, and scale in layers without chaos.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p class="muted">Three active pillars. More later.</p>
+          </div>
+
+          <div class="grid">
+            <article class="card">
+              <h3>Game Dev</h3>
+              <p>Small, shippable game prototypes focused on systems, feel, and iteration.</p>
+              <ul class="meta">
+                <li>Status: Building</li>
+                <li>Focus: Gameplay loops</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>AI Tools</h3>
+              <p>Utility-first AI tools for workflow automation, content ops, and internal agents.</p>
+              <ul class="meta">
+                <li>Status: Prototyping</li>
+                <li>Focus: Practical outcomes</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Digital Infrastructure</h3>
+              <p>DNS, hosting, deployment pipelines, monitoring—built like an IT professional.</p>
+              <ul class="meta">
+                <li>Status: Layer 1 live</li>
+                <li>Focus: Reliability</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section id="certifications" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Certifications</h2>
+            <p class="muted">Trackable progress. Verifiable skills.</p>
+          </div>
+
+          <ul class="list">
+            <li>
+              <span class="label">CompTIA A+</span>
+              <span class="value">In progress</span>
+            </li>
+            <li>
+              <span class="label">Six Sigma</span>
+              <span class="value">Completed</span>
+            </li>
+            <li>
+              <span class="label">Other</span>
+              <span class="value">Add as earned</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Contact</h2>
+            <p class="muted">Simple and direct.</p>
+          </div>
+
+          <div class="contact-box">
+            <!-- Replace placeholders with your real links -->
+            <p>
+              Email: <a href="mailto:you@shadowthornstudios.com">you@shadowthornstudios.com</a><br />
+              GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a><br />
+              LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a>
+            </p>
+
+            <p class="muted small">
+              Tip: Once your domain email is set up, swap in the real address above.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> ShadowThorn Studios. Built in layers.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Tiny utility: keep the footer year current
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
