@@ -125,6 +125,25 @@ p {
   color: var(--accent);
 }
 
+/* ---- Header Socials ---- */
+.header-socials {
+  display: flex;
+  gap: 12px;
+  margin-left: 16px;
+}
+
+.header-socials img {
+  width: 18px;
+  height: 18px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.header-socials a:hover img {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
 /* ---- Hero ---- */
 .hero {
   padding: 120px 0 100px;
@@ -271,4 +290,5 @@ p {
 
 .skip-link:focus {
   top: 10px;
+
 }
