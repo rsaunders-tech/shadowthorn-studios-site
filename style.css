@@ -275,6 +275,32 @@ p {
   color: var(--muted);
 }
 
+/* ---- Social Links ---- */
+.social-grid {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-grid img {
+  width: 28px;
+  height: 28px;
+  display: block;
+  object-fit: contain;
+
+  /* makes black SVG icons visible on dark background */
+  filter: invert(1);
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.social-grid a:hover img {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+
 /* ---- Accessibility ---- */
 .skip-link {
   position: absolute;
@@ -292,3 +318,4 @@ p {
   top: 10px;
 
 }
+
