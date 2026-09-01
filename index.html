@@ -6,7 +6,7 @@
 
     <!-- ===== SEO ===== -->
     <title>ShadowThorn Studios — Games, AI Tools &amp; Digital Infrastructure</title>
-    <meta name="description" content="ShadowThorn Studios is a focused build lab for practical software: games, automation, and AI-first tools. Explore projects, certifications, and ways to connect." />
+    <meta name="description" content="ShadowThorn Studios is a focused build lab for practical software: games, automation, and AI-first tools. Home of ChatGPT Game Studio — creator of 30+ AI-native text-based games playable directly as ChatGPT custom agents." />
     <meta name="author" content="Richard Saunders" />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#0b0a0f" />
@@ -17,7 +17,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="ShadowThorn Studios" />
     <meta property="og:title" content="ShadowThorn Studios — Games, AI Tools &amp; Digital Infrastructure" />
-    <meta property="og:description" content="A focused build lab for practical software: games, automation, and AI-first tools. Ship clean systems. Document the work. Scale in layers." />
+    <meta property="og:description" content="Home of ChatGPT Game Studio — 30+ AI-native games playable directly as ChatGPT custom agents. Plus AI tools, automation, and digital infrastructure." />
     <meta property="og:image" content="shadowthorn-goth-logo.jpg" />
     <meta property="og:url" content="https://shadowthornstudiosgames.godaddysites.com/" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -33,8 +33,13 @@
       "name": "ShadowThorn Studios",
       "url": "https://shadowthornstudiosgames.godaddysites.com/",
       "logo": "shadowthorn-goth-logo.jpg",
-      "description": "A focused build lab for practical software: games, automation, and AI-first tools.",
+      "description": "A focused build lab for practical software: games, automation, and AI-first tools. Home of ChatGPT Game Studio, creator of all 30+ AI-native games in the ChatGPT Game Library — playable text-based experiences guided by an AI GameMaster directly in ChatGPT.",
       "founder": { "@type": "Person", "name": "Richard Saunders" },
+      "brand": {
+        "@type": "Brand",
+        "name": "ChatGPT Game Studio",
+        "description": "Creator of all 30+ AI-native games in the ChatGPT Game Library. Custom games as playable text-based experiences guided by an AI GameMaster, directly in ChatGPT."
+      },
       "sameAs": [
         "https://www.youtube.com/@ChatGPTGameStudio",
         "https://medium.com/@tripwireonfire",
@@ -305,6 +310,53 @@
       }
       .card .btn-ghost { align-self: flex-start; font-size: 0.88rem; padding: 0.6rem 1.3rem; }
 
+      /* Featured card — spans the full grid width */
+      .card-featured {
+        grid-column: 1 / -1;
+        padding: 2.2rem 2rem;
+        border-color: var(--border-bright);
+        background:
+          radial-gradient(ellipse 80% 120% at 15% 0%, rgba(91, 58, 148, 0.20), transparent 65%),
+          linear-gradient(180deg, var(--surface) 0%, var(--bg-raised) 100%);
+      }
+      .card-featured h3 { font-size: 1.45rem; margin-bottom: 0.35rem; }
+      .card-featured .card-sub {
+        color: var(--violet);
+        font-size: 0.9rem; font-weight: 600; letter-spacing: 0.06em;
+        margin-bottom: 0.9rem;
+      }
+      .card-featured p { max-width: 66ch; font-size: 1.02rem; }
+      .badge {
+        display: inline-block;
+        align-self: flex-start;
+        font-size: 0.72rem; font-weight: 700;
+        letter-spacing: 0.2em; text-transform: uppercase;
+        color: #d9ccf5;
+        background: rgba(122, 74, 196, 0.18);
+        border: 1px solid var(--border-bright);
+        border-radius: 999px;
+        padding: 0.28rem 0.85rem;
+        margin-bottom: 1rem;
+      }
+      .stat-row {
+        display: flex; flex-wrap: wrap; gap: 2.2rem;
+        margin: 1.5rem 0 1.6rem;
+        padding-top: 1.3rem;
+        border-top: 1px solid var(--border);
+      }
+      .stat-num {
+        display: block;
+        font-family: var(--font-display);
+        font-size: 1.7rem; font-weight: 700; line-height: 1.1;
+        color: var(--silver);
+      }
+      .stat-label {
+        font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase;
+        color: var(--text-faint);
+      }
+      .card-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+      .card-featured .btn, .card-featured .btn-ghost { font-size: 0.9rem; padding: 0.65rem 1.4rem; }
+
       /* ============ CERTIFICATIONS ============ */
       .list { list-style: none; max-width: 640px; }
       .list li {
@@ -453,6 +505,11 @@
             <strong>automation</strong>, and <strong>AI-first tools</strong>. The goal is simple —
             ship clean systems, document the work, and scale in layers without chaos.
           </p>
+          <p class="lede" style="margin-top: 1.1rem;">
+            It is also the home of <strong>ChatGPT Game Studio</strong>, creator of all 30+ AI-native
+            games in the ChatGPT Game Library — custom text-based experiences guided by an AI
+            GameMaster and playable directly as ChatGPT custom agents.
+          </p>
         </div>
       </section>
 
@@ -462,10 +519,43 @@
           <div class="section-head">
             <span class="kicker">Projects</span>
             <h2>Active Pillars</h2>
-            <p class="muted">Three active pillars. More later.</p>
+            <p class="muted">Active pillars. More later.</p>
           </div>
 
           <div class="grid">
+            <article class="card card-featured">
+              <span class="badge">Flagship</span>
+              <h3>ChatGPT Game Studio</h3>
+              <p class="card-sub">Creator of all 30+ AI-native games in the ChatGPT Game Library</p>
+              <p>
+                Custom games built as playable text-based experiences, guided by an AI GameMaster
+                and played directly inside ChatGPT as custom agents — no downloads, no installs,
+                just the story and the player.
+              </p>
+
+              <div class="stat-row">
+                <div>
+                  <span class="stat-num">30+</span>
+                  <span class="stat-label">AI-Native Games</span>
+                </div>
+                <div>
+                  <span class="stat-num">100%</span>
+                  <span class="stat-label">Playable in ChatGPT</span>
+                </div>
+                <div>
+                  <span class="stat-num">AI</span>
+                  <span class="stat-label">GameMaster Guided</span>
+                </div>
+              </div>
+
+              <div class="card-actions">
+                <a class="btn" href="https://www.youtube.com/@ChatGPTGameStudio" target="_blank" rel="noopener">
+                  Explore the Game Library
+                </a>
+                <a class="btn btn-ghost" href="#contact">Work With Us</a>
+              </div>
+            </article>
+
             <article class="card">
               <h3>Pocket Project Manager Assistant</h3>
               <p>
